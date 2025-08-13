@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Museu Nacional</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div id="container">
+      <!--Inicio do container-->
+
+      <header>
+        <div id="logo">
+          <h1><a href=""> Museu nacional</a></h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Exposições</a></li>
+            <li><a href="">Pesquisa</a></li>
+            <li><a href="">Acervo</a></li>
+            <li><a href="">Vídeos</a></li>
+            <li><a href="">Fotos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="principal">
+        <div id="conteudo">
+          <section id="capa">
+            <img src="imagens/museu.png" alt="museu" />
+          </section>
+
+          <section id="postagens">
+            <article id="video">
+              <h3>Video: Conheça o museu</h3>
+              <iframe
+                width="310"
+                height="170"
+                src="https://www.youtube.com/embed/RGUYb-hivrc"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              ></iframe>
+            </article>
+
+            <article id="mapa">
+              <h3>Mapa: Encontre o museu</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4110.679975744233!2d-43.2265289!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e1!3m2!1spt-BR!2sbr!4v1754953940704!5m2!1spt-BR!2sbr"
+                width="310"
+                height="170"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                frameborder="0"
+              ></iframe>
+            </article>
+
+            <article id="exposicoes">
+              <h3>Exposições</h3>
+              <ul>
+                <li><a href="">Os assustadores insetos</a></li>
+                <li>
+                  <a href=""
+                    >O crânio de Luzia, a mulher mais antiga do Brasil</a
+                  >
+                </li>
+                <li><a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                <li><a href="">Plantas do Brasil Central</a></li>
+                <li><a href="">Teresa Cristina: a Imperatriz Arqueóloga</a></li>
+                <li><a href="">Arte Com Dinossauros - Paleoarte</a></li>
+                <li>
+                  <a href=""><strong>Veja todos (65)</strong></a>
+                </li>
+              </ul>
+            </article>
+
+            <article id="historia">
+              <h3>200 anos de história</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                praesentium ipsam distinctio ipsum optio possimus cumque hic
+                blanditiis quibusdam voluptatum tempore debitis eaque vitae,
+                dolorem, molestias veritatis accusamus veniam. Neque!
+              </p>
+              <a href=""><strong>Leia mais</strong></a>
+            </article>
+          </section>
+        </div>
+
+        <aside>
+          <section id="depoimento">
+            <img src="imagens/depoimento.png" alt="depoimento" />
+          </section>
+
+          <section id="visita">
+            <h4>Faça uma visita</h4>
+            <form>
+              <fieldset>
+                <legend>Selecione uma data</legend>
+
+                <label for="data">Data</label>
+                <input type="text" class="campo" id="data" value="dd/mm/aaaa" />
+
+                <label for="qtd">Qtd pessoas</label>
+                <input
+                  type="text"
+                  class="campo"
+                  style="width: 30px"
+                  id="qtd"
+                  value="1"
+                />
+              </fieldset>
+              <input
+                type="submit"
+                class="botao"
+                value="Verificar disponibilidade"
+              />
+            </form>
+          </section>
+
+          <section id="galeria">
+            <h4>Galeria de fotos</h4>
+
+            <a href="">
+              <img
+                src="imagens/imagem1.jpg"
+                alt="Descricao imagem"
+                height="93"
+                width="93"
+              />
+            </a>
+
+            <a href="">
+              <img src="imagens/imagem2.jpg" height="93" width="93" />
+            </a>
+
+            <a href="">
+              <img src="imagens/imagem3.jpg" height="93" width="93" />
+            </a>
+
+            <a href="">
+              <img src="imagens/imagem4.jpg" height="93" width="93" />
+            </a>
+          </section>
+        </aside>
+
+        <footer>
+          <p>
+            <a href="">Home</a>
+            <a href="">Exposições</a>
+            <a href="">Pesquisa</a>
+            <a href="">Acervo</a>
+            <a href="">Vídeos</a>
+            <a href="">Fotos</a>
+            <a href="">Contato</a>
+          </p>
+
+          <p>
+            2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
